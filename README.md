@@ -43,6 +43,7 @@ $data = [
     'customer-name' => 'StyleShit',
     'customer-phone' => '111-333-7777',
     'customer-email' => '1337@h4x0r.com',
+    'customer-notes' => 'I\'m awesome! Please call me ASAP, thanks :)'
 ];
 
 $response = $api->newTextLead( $data );
